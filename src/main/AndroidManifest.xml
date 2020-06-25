@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.sook">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <application
+        android:name=".App"
+        tools:replace="android:name"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="cfd4a0be53240d5f779e5bd99902de44"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity"/>
+        <activity android:name=".UserInfoActivity"/>
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".PrefActivity" />
+        <activity android:name=".CommuActivity"/>
+        <activity android:name=".DrinkActivity" />
+        <activity android:name=".DrinkPref" />
+        <activity android:name=".MealActivity" />
+        <activity android:name=".MealPref" />
+        <activity android:name=".RecipeActivity" />
+        <activity android:name=".Recipe2"/>
+        <activity android:name=".CalendarActivity"/>
+        <activity android:name="Calendar2"/>
+        <activity android:name=".MakeCommuActivity"/>
+
+
+    </application>
+
+</manifest>

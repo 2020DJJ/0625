@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="notifications">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="message"
+            android:title="message notifications"
+            android:summaryOn="메세지 수신함"
+            android:summaryOff="메세지 수신하지 않음" />
+        <SwitchPreference
+            android:key="sound"
+            android:title="sound effect"/>
+        <ListPreference
+            android:entries="@array/array_voice"
+            android:entryValues="@array/array_voice"
+            android:key="sound_list"
+            android:summary="-사운드 알림-"
+            android:title="notification sound" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title ="setting">
+        <EditTextPreference
+            android:key ="drink_goal"
+            android:title = "음수량 변경"
+            android:summary="목표 음수량을 재설정합니다"/>
+        <ListPreference
+            android:entries="@array/sex"
+            android:entryValues="@array/sex"
+            android:key="sex"
+            android:title="성별"
+            android:summary="성별을 재설정합니다" />
+        <EditTextPreference
+            android:key="age"
+            android:title="나이"
+            android:summary="나이를 재설정합니다"/>
+        <EditTextPreference
+            android:key="height"
+            android:title="키"
+            android:summary="키를 재설정합니다"/>
+        <EditTextPreference
+            android:key="weight"
+            android:title="몸무게"
+            android:summary="몸무게를 재설정합니다"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

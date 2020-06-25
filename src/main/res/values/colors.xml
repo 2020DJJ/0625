@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6495ED</color>
+
+    <color name="colorPrimaryDark">#6495ED</color>
+
+    <color name="colorAccent">#1E90FF</color>
+    //custom color
+    <color name="slategrey">#708090</color>
+
+    <color name="lightsteelblue">#b0c4de</color>
+
+    <color name="royalblue">#4169e1</color>
+
+    <color name="acliceblue">#F0F8FF</color>
+
+    <color name="Lavender">#E6E6FA</color>
+
+    <color name="black">#000000</color>
+
+    <color name="pointDark">#2C377D</color>
+
+    <color name="pointPink">#DD3399</color>
+</resources>

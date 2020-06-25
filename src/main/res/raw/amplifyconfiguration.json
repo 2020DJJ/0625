@@ -1,0 +1,15 @@
+{
+    "api": {
+        "plugins": {
+            "awsAPIPlugin": {
+                "amplifyDatasource": {
+                    "endpointType": "GraphQL",
+                    "endpoint": "https://rcwqkwwphvburhpkjishuc6i2e.appsync-api.ap-northeast-2.amazonaws.com/graphql",
+                    "region": "ap-northeast-2",
+                    "authorizationType": "API_KEY",
+                    "apiKey": "da2-gwolwppxafgjllfvmcft5ezofe"
+                }
+            }
+        }
+    }
+}

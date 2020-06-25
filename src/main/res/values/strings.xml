@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">sook</string>
+    <string name="kakao_app_key">cfd4a0be53240d5f779e5bd99902de44</string>
+    <string name="start_LoginActivity"> ˚₊*̥ ｡ﾟ 시작 ˚₊*̥ ｡ﾟ </string>
+    <string name="title_activity_new">NewActivity</string>
+    <string name="title_home">홈</string>
+    <string name="title_drink">물</string>
+    <string name="title_meal">식사</string>
+    <string name="title_moim">모임</string>
+    <string name="title_pref">설정</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
